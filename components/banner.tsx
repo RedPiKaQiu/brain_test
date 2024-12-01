@@ -8,9 +8,9 @@ export function Banner() {
   const isSettingsPage = pathname === '/settings'
 
   return (
-    <div className="w-full bg-gradient-to-r from-blue-800 to-blue-600 p-4 flex justify-between items-center">
+    <div className="w-full bg-gradient-to-r from-blue-600 to-purple-600 p-4 flex justify-between items-center">
       {isSettingsPage ? (
-        <Button variant="ghost" size="icon" asChild className="text-gray-100 hover:text-white hover:bg-blue-700">
+        <Button variant="ghost" size="icon" asChild className="text-gray-100 hover:text-white hover:bg-blue-500">
           <Link href="/data" aria-label="返回">
             <ChevronLeft className="h-5 w-5" />
           </Link>
@@ -21,12 +21,12 @@ export function Banner() {
         </h1>
       )}
       <div className="flex space-x-2">
-        <Button variant="ghost" size="icon" asChild className="text-gray-100 hover:text-white hover:bg-blue-700">
+        <Button variant="ghost" size="icon" asChild className="text-gray-100 hover:text-white hover:bg-blue-500">
           <Link href="/settings" aria-label="设置">
             <Settings className="h-5 w-5" />
           </Link>
         </Button>
-        <Button variant="ghost" size="icon" asChild className="text-gray-100 hover:text-white hover:bg-blue-700">
+        <Button variant="ghost" size="icon" asChild className="text-gray-100 hover:text-white hover:bg-blue-500">
           <Link href="/profile" aria-label="个人页面">
             <User className="h-5 w-5" />
           </Link>

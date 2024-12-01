@@ -1,7 +1,7 @@
 import { BottomNav } from "@/components/bottom-nav"
 import { Banner } from "@/components/banner"
 import { UserProfile } from "@/components/user-profile"
-import { UserPreferences } from "@/components/user-preferences"
+import { TaskPreferences } from "@/components/task-preferences"
 import { TaskPrinciples } from "@/components/task-principles"
 
 export default function Profile() {
@@ -13,7 +13,7 @@ export default function Profile() {
         <div className="max-w-2xl mx-auto space-y-6">
           <UserProfile />
           <TaskPrinciples />
-          <UserPreferences />
+          <TaskPreferences />
         </div>
       </div>
       <BottomNav />

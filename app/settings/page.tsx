@@ -14,7 +14,7 @@ export default function Settings() {
       <div className="flex-grow p-4">
         <h1 className="text-2xl font-bold mb-6 text-center text-blue-800">设置</h1>
         <Tabs defaultValue="basic" className="w-full max-w-3xl mx-auto">
-          <TabsList className="grid w-full grid-cols-4">
+          <TabsList className="grid w-full grid-cols-5">
             <TabsTrigger value="basic">基础设置</TabsTrigger>
             <TabsTrigger value="theme">主题市场</TabsTrigger>
             <TabsTrigger value="style">样式设置</TabsTrigger>
